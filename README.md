@@ -2,7 +2,7 @@
 
 This repository contains instructions for creating Linux containers for the processing of diffusion MR images. Individual containers are created for DTIPrepTools, FreeSurfer, and FSL. These containers will be specified using Dockerfiles, built using Docker, and then converted to Singularity for use on high-performance computing clusters. Singularity is an HPC-friendly container implementation that preserves a user's privileges, whereas Docker can escalate a user to root. Graphical user interfaces are also easier to use with Singularity.
 
-Here are the instructions to [install Docker]() and to [install Singularity](). You must be running Linux to use Singularity.
+Here are the instructions to [install Docker](https://docs.docker.com/install/) and to [install Singularity](https://www.sylabs.io/guides/3.0/user-guide/installation.html). You must be running Linux to use Singularity.
 
 ## DTIPrepTools
 
